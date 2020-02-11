@@ -235,7 +235,7 @@ h1 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
-  line-height: 1.1;
+  line-height: 2;
 }
 h2 {
   margin-left: 0;
@@ -615,6 +615,84 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+/* Products styling */
+
+.product-name
+{
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cart
+{
+  /* float: right; */
+  font-weight: bold
+}
+
+.top-row-margin
+{
+  margin-top: 20px
+}
+
+.modal-float-right
+{
+  float: right;
+}
+
+.image-pointer
+{
+  cursor: pointer;  
+}
+
+.jumbotron
+{
+  background-color: rgb(0, 175, 215)!important;
+  color: white;
+  text-decoration: bold;
+  font-size: 50px;
+  text-align: center
+}
+
+.margin-button
+{
+  background-color: rgb(38, 131, 151)!important;
+  margin-left: 10px;
+}
+
+.margin-button:hover{
+  background-color: rgba(38, 130, 151, 0.52)!important;
+}
+
+.cart-info-right
+{
+  float: right;
+}
+
+.cart-pro-text
+{
+  margin-left: 90px
+}
+
+.cart-image
+{
+  height: 50%;
+  width: 50%;
+}
+
+.dynamic
+{
+  display: none
+}
+
+.button-padding
+{
+  padding-bottom: 20px
+}
+
+/* responsive */
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
